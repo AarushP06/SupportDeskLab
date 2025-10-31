@@ -97,6 +97,11 @@ namespace SupportDeskLab
            
             Console.WriteLine("-- Tickets (front to back) --");
             //look at the Demo captuerd image and add your code here
+            if (Tickets.Count == 0)
+            {
+                Console.WriteLine("(none)");
+                return;
+            }
 
         }
 
